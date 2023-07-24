@@ -1,0 +1,27 @@
+Untuk membuat REST API menggunakan bahasa Go, Anda harus menguasai beberapa dasar-dasar bahasa Go dan konsep pengembangan web. Berikut adalah beberapa dasar-dasar yang perlu Anda ketahui:
+
+Variabel dan Tipe Data: Anda harus memahami cara mendeklarasikan variabel, tipe data dasar seperti string, integer, float, dan boolean, serta cara menginisialisasi dan menggunakan nilai-nilai ini.
+
+Struktur (Struct): Struktur adalah cara untuk mendefinisikan tipe data baru yang terdiri dari beberapa bidang. Anda dapat menggunakan struktur untuk mewakili entitas dalam REST API Anda, seperti buku dengan bidang ID, judul, dan pengarang.
+
+Slice dan Array: Anda akan sering menggunakan slice dan array dalam REST API, terutama untuk menyimpan kumpulan data seperti daftar buku.
+
+Pemrograman Fungsi: Fungsi adalah blok kode yang dapat dipanggil untuk melakukan tugas tertentu. Anda akan menggunakan fungsi untuk menulis handler HTTP yang akan merespons permintaan pada endpoint API Anda.
+
+Pengaturan HTTP Server: Anda perlu memahami cara menggunakan pustaka standar "net/http" untuk membuat dan menjalankan server HTTP.
+
+Routing: Dalam REST API, Anda perlu mengatur rute untuk berbagai endpoint API. Anda bisa menggunakan pustaka router, seperti "gorilla/mux", untuk membantu dalam mengelola rute-rute ini.
+
+Penanganan Permintaan HTTP: Anda harus tahu cara membaca data dari permintaan HTTP yang masuk, termasuk membaca data dari body permintaan untuk operasi Create dan Update.
+
+Penanganan Respons HTTP: Anda perlu memahami cara mengonfigurasi dan mengirimkan respons HTTP dengan benar, termasuk mengatur kode status HTTP dan mengirimkan data dalam format JSON.
+
+Operasi CRUD: Anda harus memahami konsep dasar operasi Create, Read, Update, dan Delete dalam konteks REST API, dan kemudian mengimplementasikan operasi-operasi ini dalam handler Anda.
+
+Penggunaan Pustaka Pihak Ketiga: Anda mungkin ingin menggunakan pustaka pihak ketiga, seperti "gorilla/mux" untuk routing atau "encoding/json" untuk mengelola data JSON. Pastikan Anda memahami cara mengimpor dan menggunakan pustaka-pustaka ini dalam proyek Go Anda.
+
+Itu adalah beberapa dasar-dasar yang penting untuk diketahui sebelum membuat REST API dengan bahasa Go. Pastikan Anda telah memahami dasar-dasar tersebut sebelum mulai mengembangkan API Anda. Selamat belajar dan semoga sukses dalam pengembangan REST API dengan bahasa Go!
+
+
+
+
